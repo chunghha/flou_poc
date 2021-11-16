@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "matklad.rust-analyzer",
+    "panicbit.cargo",
+    "statiolake.vscode-rustfmt",
+    "bungcip.better-toml",
+    "aaron-bond.better-comments",
+  ]
+}

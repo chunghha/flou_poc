@@ -1,0 +1,11 @@
+grid {
+    src("Source");
+    dest("Destination", class: "my-destination");
+}
+
+define {
+    src(connect: {
+        s:n@s(class: "my-south-connection", arrowheads: both);
+        w:w@s(class: "my-west-connection");
+    });
+}

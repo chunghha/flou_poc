@@ -1,0 +1,15 @@
+grid {
+    block("Think about going outside", connect: s:n@s);
+    condition("Is it raining?"),                           block#stay("Stay inside");
+    condition("Is it cold?");
+    condition("Is it night?");
+    block("Go outside");
+}
+
+define {
+    block(class: "my-blue");
+    condition(shape: diamond, class: "my-orange", connect: {
+        s:n@s("No");
+        e:w#stay("Yes");
+    });
+}

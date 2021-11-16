@@ -1,0 +1,11 @@
+{
+    "editor.defaultFormatter": "matklad.rust-analyzer",
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll"
+    ],
+    "rust-analyzer.inlayHints.enable": false
+}

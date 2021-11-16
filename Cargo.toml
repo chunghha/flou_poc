@@ -1,0 +1,18 @@
+[package]
+name = "flou-poc"
+version = "0.1.0"
+authors = ["Chris Ha <chunghha@users.noreply.github.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.45"
+better-panic = "0.2.0"
+log = "0.4.14"
+pretty_env_logger = "0.4.0"
+structopt = "0.3.25"
+
+[[bin]]
+name = "flou_gen"
+path = "src/bin/flou_gen.rs"
